@@ -1,15 +1,15 @@
 //Noah Canepa, this is my work
 public class defensivePlayer extends NFLPlayer{
 	private int tackles;
-	public defensivePlayer() {
-		super();
-		System.out.println("Constructor Called");
-	}
 	//creates defensive players with args from NFLPlayer class as well as this one
 	public defensivePlayer(String name, int weight, int height, String position, int age, int tackles) {
 		super(name, weight, height, position, age);
 		this.tackles = tackles;
 	}
+	public defensivePlayer() {
+		super();
+	}
+
 	//overrides toString method to fit defensive players
 	public String toString() {
 		return "Name:" + getName() + " " + "Weight: " + getWeight() + " " + "Height: " + getHeight() + " " + "Position: " +

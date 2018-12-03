@@ -1,3 +1,4 @@
+//Noah canepa, this is my own work
 public class testClass{ 
 	public static void main (String args[]) {		
 		offensivePlayer OffNFLobject1 = new offensivePlayer();
